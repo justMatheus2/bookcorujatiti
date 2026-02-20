@@ -1,9 +1,9 @@
 :root {
-  --pink: #f9e9eb;
-  --beige: #faf5ec;
-  --sage: #dbe8de;
-  --text: #2d2a2a;
-  --muted: #6b6565;
+  --pink: #f6d6d8;
+  --beige: #fdf8f3;
+  --sage: #cddfbf;
+  --text: #3d1d6a;
+  --muted: #7a7472;
   --shadow: 0 10px 30px rgba(88, 65, 65, 0.12);
   --radius: 18px;
 }
@@ -16,7 +16,7 @@ html,
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   color: var(--text);
   background: linear-gradient(180deg, #fff9fa 0%, #fffef9 50%, #f7fbf8 100%);
 }
@@ -38,7 +38,7 @@ body {
 }
 
 .brand {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-size: 1.1rem;
 }
 
@@ -56,7 +56,9 @@ body {
   cursor: pointer;
   padding: 0.25rem 0.4rem;
   border-radius: 8px;
-  transition: background-color 0.3s ease, color 0.3s ease;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
 }
 
 .lang-btn:hover,
@@ -98,7 +100,7 @@ section {
 h1,
 h2,
 blockquote {
-  font-family: 'Playfair Display', serif;
+  font-family: "Roboto", serif;
   line-height: 1.25;
 }
 
@@ -134,14 +136,17 @@ h1 {
   justify-content: center;
   align-items: center;
   padding: 0.85rem 1.2rem;
-  transition: transform 0.2s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.3s ease,
+    background-color 0.3s ease;
   box-shadow: var(--shadow);
 }
 
 .btn:hover {
   transform: translateY(-5px);
   box-shadow: 0px 15px 40px rgba(41, 6, 77, 0.875);
-  background-color: #2d2a2a;
+  background-color: #3d1d6a;
   color: #dbe8de;
 }
 
@@ -166,13 +171,18 @@ h1 {
 
 .quote {
   text-align: center;
-  background: linear-gradient(180deg, rgba(250, 245, 236, 0.95), rgba(249, 233, 235, 0.95));
+  background: linear-gradient(
+    180deg,
+    rgba(242, 191, 196, 1),
+    rgba(242, 191, 196, 1)
+  );
 }
 
 blockquote {
   margin: 0;
   font-size: clamp(1.4rem, 4vw, 2.2rem);
   color: #3f3032;
+  font-family:"Playfair Display", serif;
 }
 
 .special ul {
@@ -184,7 +194,11 @@ blockquote {
 
 .cta {
   text-align: center;
-  background: linear-gradient(145deg, rgba(219, 232, 222, 0.9), rgba(250, 245, 236, 0.92));
+  background: linear-gradient(
+    145deg,
+    rgba(219, 232, 222, 0.9),
+    rgba(250, 245, 236, 0.92)
+  );
 }
 
 .section-fade {
