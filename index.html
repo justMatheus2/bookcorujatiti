@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>A Coruja que Sempre Estava Lá | Monaliza Bezerra</title>
+    <meta
+      name="description"
+      content="Landing page oficial do livro infantil A Coruja que Sempre Estava Lá, de Monaliza Bezerra. Uma história ilustrada sobre amor, família e presença para bebês e crianças pequenas."
+    />
+    <meta
+      name="keywords"
+      content="livro infantil, picture book, bebês, toddlers, leitura antes de dormir, família, amor, Monaliza Bezerra"
+    />
+    <meta name="robots" content="index, follow" />
+    <meta property="og:title" content="A Coruja que Sempre Estava Lá" />
+    <meta
+      property="og:description"
+      content="Porque o amor sempre encontra um jeito de estar presente."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="pt_BR" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="brand" data-i18n="brand">Monaliza Bezerra</div>
+      <nav class="language-switcher" aria-label="Language switcher">
+        <button class="lang-btn active" data-lang="pt" aria-label="Mudar para português">
+          PT
+        </button>
+        <span aria-hidden="true">|</span>
+        <button class="lang-btn" data-lang="en" aria-label="Switch to English">EN</button>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero section-fade" aria-labelledby="book-title">
+        <div class="book-cover" role="img" aria-label="Book cover illustration">
+          <span class="cover-owl">🦉</span>
+          <p class="cover-title">A Coruja que Sempre Estava Lá</p>
+        </div>
+        <h1 id="book-title" data-i18n="title">A Coruja que Sempre Estava Lá</h1>
+        <p class="author" data-i18n="author">Por Monaliza Bezerra</p>
+        <p class="subtitle" data-i18n="subtitle">
+          Porque o amor sempre encontra um jeito de estar presente.
+        </p>
+        <div class="hero-actions">
+          <a href="#cta" class="btn btn-primary" data-i18n="buyNow">Comprar Agora</a>
+          <a href="#about" class="btn btn-secondary" data-i18n="aboutBook">Sobre o Livro</a>
+        </div>
+      </section>
+
+      <section id="about" class="about section-fade" aria-labelledby="about-heading">
+        <h2 id="about-heading" data-i18n="aboutHeading">Sobre o Livro</h2>
+        <p data-i18n="aboutText">
+          Uma história ilustrada delicada sobre família, saudade e amor que permanece presente
+          mesmo à distância. Perfeito para leitura antes de dormir para bebês e crianças pequenas.
+        </p>
+      </section>
+
+      <section class="quote section-fade" aria-label="Emotional quote">
+        <blockquote data-i18n="quote">
+          “Não importa a distância, eu sempre estarei com vocês.”
+        </blockquote>
+      </section>
+
+      <section class="special section-fade" aria-labelledby="special-heading">
+        <h2 id="special-heading" data-i18n="specialHeading">Por que este livro é especial</h2>
+        <ul>
+          <li data-i18n="special1">Ilustrações simples e acolhedoras</li>
+          <li data-i18n="special2">Texto curto e rítmico para primeira infância</li>
+          <li data-i18n="special3">Presente perfeito para famílias que vivem longe</li>
+          <li data-i18n="special4">Uma história sobre conexão e segurança emocional</li>
+        </ul>
+      </section>
+
+      <section id="cta" class="cta section-fade" aria-labelledby="cta-heading">
+        <h2 id="cta-heading" data-i18n="cta">Dê o presente de um amor que permanece.</h2>
+        <div class="cta-actions">
+          <a
+            class="btn btn-primary"
+            href="#"
+            aria-label="Buy on Book Mundo"
+            data-i18n="buyMundo"
+            >Buy on Book Mundo</a
+          >
+          <a
+            class="btn btn-secondary"
+            href="#"
+            aria-label="Buy on Clube de Autores"
+            data-i18n="buyClube"
+            >Buy on Clube de Autores</a
+          >
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
