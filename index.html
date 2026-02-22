@@ -3,101 +3,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="./src/image/icon1transparente.png" type="image/png"/>
+    <link rel="icon" href="/src/image/icon1transparente.png" type="image/png"/>
     <title>A Coruja que Sempre Estava Lá | Monaliza Bezerra</title>
     <meta
       name="description"
-      content="Landing page oficial do livro infantil A Coruja que Sempre Estava Lá, de Monaliza Bezerra. Uma história ilustrada sobre amor, família e presença para bebês e crianças pequenas."
+      content="Landing page oficial do livro infantil A Coruja que Sempre Estava Lá, de Monaliza Bezerra."
     />
-    <meta
-      name="keywords"
-      content="livro infantil, picture book, bebês, toddlers, leitura antes de dormir, família, amor, Monaliza Bezerra"
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
     />
-    <meta name="robots" content="index, follow" />
-    <meta property="og:title" content="A Coruja que Sempre Estava Lá" />
-    <meta
-      property="og:description"
-      content="Porque o amor sempre encontra um jeito de estar presente."
-    />
-    <meta property="og:type" content="website" />
-    <meta property="og:locale" content="pt_BR" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <header class="topbar">
-      <div class="brand" data-i18n="brand">Monaliza Bezerra</div>
-      <nav class="language-switcher" aria-label="Language switcher">
-        <button class="lang-btn active" data-lang="pt" aria-label="Mudar para português">
-          PT
-        </button>
-        <span aria-hidden="true">|</span>
-        <button class="lang-btn" data-lang="en" aria-label="Switch to English">EN</button>
-      </nav>
-    </header>
-
-    <main>
-      <section class="hero section-fade" aria-labelledby="book-title">
-        <div class="book-cover" role="img" aria-label="Book cover illustration">
-        </div>
-        <h1 id="book-title" data-i18n="title">A Coruja que Sempre Estava Lá</h1>
-        <p class="author" data-i18n="author">Por Monaliza Bezerra</p>
-        <p class="subtitle" data-i18n="subtitle">
-          Porque o amor sempre encontra um jeito de estar presente.
-        </p>
-        <div class="hero-actions">
-          <a href="#cta" class="btn btn-primary" data-i18n="buyNow">Comprar Agora</a>
-          <a href="#about" class="btn btn-secondary" data-i18n="aboutBook">Sobre o Livro</a>
-        </div>
-      </section>
-
-      <section id="about" class="about section-fade" aria-labelledby="about-heading">
-        <h2 id="about-heading" data-i18n="aboutHeading">Sobre o Livro</h2>
-        <p data-i18n="aboutText">
-          Uma história ilustrada delicada sobre família, saudade e amor que permanece presente
-          mesmo à distância. Perfeito para leitura antes de dormir para bebês e crianças pequenas.
-        </p>
-      </section>
-
-      <section class="quote section-fade" aria-label="Emotional quote">
-        <blockquote data-i18n="quote">
-        “Não importa a distância, eu sempre estarei com vocês.”
-        </blockquote>
-      </section>
-
-      <section class="special section-fade" aria-labelledby="special-heading">
-        <h2 id="special-heading" data-i18n="specialHeading">Por que este livro é especial</h2>
-        <ul>
-          <li data-i18n="special1">Ilustrações simples e acolhedoras</li>
-          <li data-i18n="special2">Texto curto e rítmico para primeira infância</li>
-          <li data-i18n="special3">Presente perfeito para famílias que vivem longe</li>
-          <li data-i18n="special4">Uma história sobre conexão e segurança emocional</li>
-        </ul>
-      </section>
-
-      <section id="cta" class="cta section-fade" aria-labelledby="cta-heading">
-        <h2 id="cta-heading" data-i18n="cta">Dê o presente de um amor que permanece.</h2>
-        <div class="cta-actions">
-          <a
-            class="btn btn-primary"
-            href="https://publishnl.bookmundo.com/books/22046553"
-            aria-label="Buy on Book Mundo"
-            data-i18n="buyMundo"
-            target="_blank">Buy on Book Mundo</a
-          >
-          <a
-            class="btn btn-secondary"
-            href="https://clubedeautores.com.br/livro/a-coruja-que-sempre-estava-la"
-            aria-label="Buy on Clube de Autores"
-            data-i18n="buyClube"
-            target="_blank">Buy on Clube de Autores</a
-          >
-        </div>
-      </section>
-    </main>
-
-    <script src="script.js"></script>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
